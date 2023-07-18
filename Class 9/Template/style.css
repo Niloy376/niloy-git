@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ======================= header-section start =======================*/
+.headerSection{
+    background: #34495e;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+/* ======================== hero-section start ======================*/
+.heroSection{
+    background: #e67e22;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.heroSection img{
+    width: 80%;
+    box-shadow: 10px 17px 11px #ffffff;
+}
+
+/* ======================== about-section start ============================== */
+
+.aboutSection{
+    background: #34495e;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.aboutSection h2{
+    font-size: 50px;
+}
+
+/* ====================== service-section start ================================*/
+
+.serviceSection{
+    padding: 40px;
+    background: #9b59b6;
+    text-align: center;
+    color: #ffffff;    
+}
+
+.serviceSection h3{
+    color:#969e9e;
+}
+
+/* ======================== test-section start ====================================*/
+
+.testSection{
+    background: #ff9814;
+    padding: 60px;
+}
+
+    .test-bg {
+        background: #dddddd;
+        padding: 50px;
+        width: 550px;
+        margin: 0 auto;
+        box-shadow: 39px 33px 3px #ffffff;
+        border: 5px dashed #000;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+/* ============================== footer-section start ======================== */
+
+  .footerSection{
+    background:#2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+  }  

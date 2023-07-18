@@ -1,0 +1,146 @@
+.container{
+ padding: 200px;
+ margin: 0 auto;
+}
+
+/* ================================ LogoSection Start ================================== */
+
+.logoSection{
+    background: #2e219a;
+    text-align: center;
+}
+
+.logoSection img{
+    width: 120px;
+    padding: 25px 0;
+}
+
+/* ======================================== MenuSecttion Start ==================================== */
+
+.menuSection{
+    background: #ff0000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menuSection ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-right: 1px solid #fff;
+}
+
+.menuSection ul li:last-child{
+    border-right: none;
+}
+
+/* ============================================= HeroSection1 Start ======================================== */
+
+.heroSection1{
+        background-image: url(https://i.ibb.co/ts9JT9S/pngtree-simple-creative-background-design-in-the-sky-backgroundcartoonlovelyplanetstarry-skyillustra.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 178px 0;
+        text-align: center;
+    
+}
+.heroSection1 h1{
+    color: #fff;
+    font-size: 60px;
+}
+.heroSection1 p{
+    color: #fff;
+    font-size: 15px;
+}
+.heroSection1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    background:#008000 ;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+/* ============================================ HeroSection2 Start */
+
+
+.heroSection2{
+    background-image: url(https://i.ibb.co/ts564LD/pngtree-modern-double-color-futuristic-neon-background-image-351866.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 178px 0;
+    text-align: center;
+}
+.heroSection2 h2{
+    background: #008000;
+    font-size: 40px;
+    color: #ffff;
+}
+
+.heroSection2 p{
+    background: #ffff00;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.heroSection2 a{
+    background: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffff;
+    border-radius: 10ex;
+}
+
+/* ======================================== ServiceSection Start ==================================== */
+
+
+.serviceSection{
+    background: #4ab75c;
+}
+
+.serviceSection h2{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.servicetext{
+    display: inline-block;
+    width: 40%;
+    margin-left: 160px;
+    margin-right: 130px;
+    vertical-align: bottom;
+}
+
+.serviceimg{
+    display: inline-block;
+    width: 15%;
+    margin: 30px 10px;
+}
+
+.serviceSection img{
+    width: 100%;
+}
+
+/* ============================================ FooterSection ============================================ */
+
+
+.footerSection{
+    background: #2c1a8e;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.footerSection a{
+    padding: 10px 15px;
+    margin: 0 10px;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* ================================================== END =========================================== */

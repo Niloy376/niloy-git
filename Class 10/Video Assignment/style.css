@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: -5px;
+    
+}
+
+.menu li a{
+    padding: 10px 50px;
+    display: inline-block;
+    background: green;
+    border: 2px solid orange;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu li a:hover{
+    background: rgb(128, 0, 0);
+    transition: .6s;
+}
+
+.another{
+    background-image: url(https://4.bp.blogspot.com/-NusT8_BxXvU/WigtjvJvKLI/AAAAAAABOyg/VP7N3f2xgkAOOU2LPKaVCBdTsMiDJp_EgCK4BGAYYCw/s1600/Web-design.jpg);
+    height: 1200px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+    text-align: center;background-attachment: fixed;
+    color: #000;
+    font-size: 50px;
+}

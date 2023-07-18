@@ -1,0 +1,42 @@
+h4{
+    color: plum;
+    font-size: 50px;
+    background-color: #000;
+    text-align: center;
+}
+
+h2{
+color: bisque;
+background-color: blueviolet;
+text-align: right;
+}
+h6{
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    text-align: center;
+    font-size: 60px;
+}
+
+div{
+    font-size: larger;
+    color: aqua;
+    background-color: blue;
+}
+
+h1{
+    background-color: orange;
+    color: #fff;
+}
+
+ul{
+    color: chartreuse;
+    font-size: 50px;
+    background-color: gray;
+    text-align: center;
+}
+
+ol{
+    color: yellowgreen;
+    background-color: red;
+    font-size: 30px;
+}

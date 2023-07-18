@@ -1,0 +1,30 @@
+.header-section{
+    background: #8e44ad;
+    color: #ffff;
+    text-align: center;
+    
+}
+
+.hero-section img{
+    width: 100%;
+    margin-top: -8px;
+}
+
+.about-section{
+    
+    text-align: center;
+    background: #1abc9c;
+    color: #ffff;
+    padding: 60px 0;
+}
+
+.main-footer{
+    background:#33495d ;
+    padding: 70px;
+}
+
+.footer-bottom{
+    background: #041f38;
+    padding: 15px;
+    font-size: 30px;
+}

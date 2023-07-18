@@ -1,0 +1,196 @@
+/* =============== header-section================ */
+
+.header-section{
+    background-color: #34495e;
+}
+
+.header-section h2{
+    color:#ffffff ;
+    text-align: center;
+    padding:20px 0 ;
+    margin-bottom: 0;
+}
+
+/* ============= hero-section ============= */
+
+.hero-section img{
+    width: 100%;
+    margin-top: 0;
+}
+
+/* ============== service-section================= */
+
+.service-section{
+    background-color:#0d6efd ;
+    padding: 70px 100px;
+}
+
+.singel-service1{
+    width: 550px;
+    padding: 20px 10px;
+    margin-bottom: 50px;
+    border-radius: 0 50px 50px 0;
+    background-color:#e67e22 ;
+    text-align: center;
+    color: white;
+    border-left: 4px solid #000;
+    box-shadow: 1px 1px 5px #000;
+
+}
+
+.singel-service2{
+    width: 550px;
+    padding: 20px 10px;
+    border-radius: 50px 0  0 50px;
+    background-color:#1abc9c ;
+    text-align: right;
+    margin-left: 40%;
+    color: #ffffff;
+    border-right: 4px solid rgba(145, 73, 175, .8);
+    box-shadow: 1px 1px 5px #000;
+}
+
+.singel-service3{
+    width: 550px;
+    padding: 20px 10px;
+    margin-top: 50px;
+    border-radius: 0 50px 50px 0;
+    background-color:#973e02 ;
+    text-align: center;
+    color: white; 
+    border-left: 4px solid #000;
+    box-shadow: 1px 1px 5px #000;
+}
+
+/* ============== flag-section================== */
+
+.flag-section{
+    background-color:#4d687a ;
+    padding: 40px 0;
+    margin-top: 0;
+}
+
+.flag-section h2{
+   
+        color: #ffffff;
+        padding: 20px 0;
+        margin-top: -40px;
+        text-align: center;
+    }
+
+
+.bangladesh{
+    width: 350px;
+    height: 210px;
+    background-color: rgb(26, 77, 26);
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 1px 1px 7px #ffffff;
+}
+
+.bangladeshround{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.england{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 1px 1px 7px #ffffff;
+}
+
+.england1{
+    width: 350px;
+    height: 30px;
+    background-color: red;
+    margin-top: 80px;
+    display: inline-block;
+}
+
+    .england2 {
+        width: 30px;
+        height: 200px;
+        margin-left: 239px;
+        background-color: red;
+        margin-top: -116px;
+    }
+
+    .england h4{
+        margin-top: 13px;
+    }
+
+
+    .japan{
+        width: 350px;
+        height: 210px;
+        background-color: #ffffff;
+        text-align: center;
+        margin: 0 auto;
+        box-shadow: 1px 1px 7px #ffffff;
+        margin-top: 70px;
+        border: 3px solid #000 ;
+        margin-bottom: 60px;
+    }
+    
+    .japanround{
+        width: 150px;
+        height: 150px;
+        background-color: red;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+    .germany{
+        width: 350px;
+        height: 200px;
+        background: #ffffff;
+        margin-top: 90px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px;
+        box-shadow: 1px 1px 7px #ffffff;
+    }
+
+    .germany1{
+        width: 350px;
+        height: 66px;
+        background: #000;  
+      }
+
+    .germany2{
+        width: 350px;
+        height: 66px;
+        background: red;
+        border-top: 3px solid #ffffff; 
+        border-bottom: 3px solid #ffffff; 
+    }
+
+    .germany3{
+        width: 350px;
+        height: 66px;
+        background: yellow; 
+        margin-bottom: 20px; 
+    }
+  
+/* ============ footer-section ============== */
+    .footer-section{
+    background:#198754;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+    }
+  
+
+   

@@ -1,0 +1,133 @@
+.main{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-section h1{
+  background: blue;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.hero-section p{
+  background:#047504;
+  color:#f7fcf9 ;
+  font-family: yellowtail;
+  font-size: 30px;
+  margin-top: 8px;
+
+}
+
+.hero-section{
+  background: #000000;
+  text-align: center;
+}
+
+.hero-section sub{
+  color:#ecebf4 ;
+  font-family: open-sans;
+  font-style: italic;
+  font-weight: 300 ;
+}
+
+.hero-section span{
+  color:#b9585e ;
+  font-family: montserrat;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.hero-section sup{
+  color: #65afe8;
+  font-family: roboto;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.about-section{
+  text-align: center;
+}
+
+.about-section h1{
+  background:rgb(131, 70, 70);
+  font-family: yellowtail;
+  font-size: 70px;
+  margin-top: 0;
+ margin-bottom: 0;
+}
+
+.about-section p{
+  background: #eeeeee;
+  margin-top: 0;
+  font-size: large;
+  margin-bottom: 0;
+}
+
+.service-section{
+  text-align: center;
+  background: #eeeeee;
+  margin-bottom: 0 auto;
+  
+}
+
+.service-section h1{
+  background:rgb(41, 122, 72);
+  margin-top: 0;
+  font-family: roboto;
+  font-style: italic;
+  font-weight:100;
+  font-size: 70px;
+}
+
+.service-section p{
+  margin-bottom: 0;
+}
+
+.contact-section{
+  background: #eeeeee;
+  margin-bottom: 0;
+}
+
+.contact-section h1{
+    background:rgba( 13, 110, 253, .8);
+    font-size: 70px;
+    font-family: roboto;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0 auto;
+}
+
+.contact-section form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.html-template-section{
+  text-align: center;
+  background:rgba(79, 132, 196, .9);
+  color:#ffffff ;
+  margin-bottom: 0;
+  
+}
+
+.html-template-section h4{
+    font-family: yellowtail;
+    font-size: 60px;
+}
+
+.html-template-section h5{
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.html-template-section p{
+  margin-bottom: 0;
+}
+
+.footer-section{
+  text-align: center;
+}
+
+.footer-section h4{
+  color: #ffffff;
+  background: #000;
+}

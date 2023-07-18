@@ -1,0 +1,39 @@
+/* .main{
+    width: 1000px;
+    margin: 0 auto;
+} */
+
+
+.one{
+    background-color: #7d4b4b;
+    width: 550px;
+    padding: 80px 20px ;
+    margin-left: 10%;
+    border-radius: 0 50px 50px 0;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.two{
+    background-color:#4f7d4b;
+    width: 500px;
+    padding: 80px 20px ;
+    margin-left: 55%;
+    border-radius: 50px 0  0 50px;
+    font-size: 60px;
+    text-align: center;
+    color: #ef9e9c;
+
+}
+
+.three{
+    background-color: #340e9d;
+    width: 550px;
+    padding:50px 20px ;
+    margin-left: 10%;
+    border-radius: 0 50px 50px 0;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
