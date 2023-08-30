@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+width: 137000px;
+margin: 0 auto;
+}
+
+/* headerSection Start */
+
+.headerSection{
+    background: #000;
+    text-align: center;
+}
+.menu{ 
+    padding-top: 40px;
+     padding-bottom: 10px;
+}
+/* .menu ul {} */
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+.menu ul li a {
+    padding: 12px 24px;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #b9a9a9;
+    font-weight: bolder;
+}
+.menu ul li:hover > a{
+    color: white;
+}
+.menu ul li ul {
+    width: 200px;
+    padding: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    border-top: 5px solid #446fd4;
+}
+.menu ul li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+    transition: .8s;
+}
+.menu ul li ul li{
+    display: block;
+}
+.menu ul li ul li:hover > a{
+    border-bottom: 1px solid #b9a9a9;
+    display: block;
+    background-color: #446fd4;
+}
+.menu ul li ul li ul{
+    top: 0;
+    left: 100%;
+}
+
+/* headerSection End */
+
+/* heroSection Start*/
+
+.heroSection{
+background-image: url("https://i.ibb.co/sFNmwVx/young-mens.jpg" );
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+padding: 200px 0;
+margin-top: -17px;
+text-align: center;
+font-weight: bold;
+}
+/* .hero{} */
+.hero h2{
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+}
+.hero h4{
+    background-color: #fff;
+    padding: 8px 0;
+    margin: 20px 0;
+}
+.hero a{
+    text-decoration: none;
+    color: #f5f1f1;
+    font-size: 18px;
+    background-color: red;
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid red;
+}
+
+.hero a:hover{
+    border: 2px solid red;
+    background-color: #fcfcfc;
+    color: #000;
+}
+/* heroSection End */
+
+/* outsideSection Start */
+
+/* .outsideSection{} */
+.outside{
+    padding: 30px ;
+    margin-top: 40px;
+    text-align: center;
+    border: 2px solid #b9a9a9;
+}
+.outside ul{
+    list-style-position: outside;
+}
+
+/* insideSection Start */
+
+/* .insideSection{} */
+.inside{
+    box-shadow: 1px 1px 10px #a19f9f;
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px 0;
+}
+.inside ul{
+    list-style-position: inside;
+}
+
+
+/* subcribeSection start */
+
+.subcribeSection{
+    padding: 50px 0;
+    background-color: #ccc;
+    text-align: center;
+    margin-top: 20px;
+}
+/* .subs{} */
+.myEmail {
+    width: 70%;
+    border-bottom: 2px solid red ;
+    border-top: none;
+    border-left: none;
+    padding: 11px 10px;
+    margin-right: -5px;
+    outline: none;
+
+}
+.subnow{
+    width: 20%;
+    background-color: red;
+    padding: 11px 10px;
+    color: #fff;
+    outline: none;
+    border: 2px solid red;
+}
+
+/* subcribeSection End */
+
+
+/* list-styleSection Start */
+.list-styleSection{
+    margin-top: 40px;
+}
+.list{
+    border: 4px dotted #ccc;
+    padding: 40px 10px;
+}
+
+.list h1{
+    text-align: center;
+    padding: 20px;
+}
+
+    .listItem {
+        width: 357px;
+        margin: 0 auto;
+        display: inline-block;
+    }
+.listItem ul li{
+    list-style-type:lower-roman;
+}    
+.listItem.item1 ul li{
+    list-style-type: square;
+}
+.listItem.item2 ul li{
+    list-style-type: lower-greek;
+}
+
+/* list-styleSection End */
+
+/* footerSection Start*/
+
+.footerSection{
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+/* .footer{} */
+.footer p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+/* .footer ul{} */
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a{
+    background: #5ea5fa;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 16px;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    transition: .8s;
+
+}
+
+.footer ul li:hover a{
+    color: #000;
+}
+
+/* footerSection End */

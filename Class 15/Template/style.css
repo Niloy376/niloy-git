@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.h1, h2, h3, h4, h5, h6, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none ;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* HeaderSection Start */
+
+.headerSection{
+    background-color: #22c3a3;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.menulogo{}
+
+.logo{
+    width: 20%;
+    float: left;
+}
+
+.logo a{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.menu{
+    width: 80%;
+    float: right;
+    text-align: right;
+    
+}
+
+.menu ul{
+
+}
+
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    margin: 0 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+}
+
+/* HeaderSection End */
+
+/* HeroSection Start */
+.heroSection{
+    background-image: url("https://i.ibb.co/Srg9Mkf/header-bg01.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 260px 0;
+    text-align: center;
+}
+.hero{
+    margin: -50px 0;
+}
+.hero h1{
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.hero h4{
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+.hero a{
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 12px 26px;
+    margin-top: 58px;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* HeorSection End */
+
+/* ServiceSection Start */
+
+.serviceSection{
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.title{
+    text-align: center;
+    margin: 40px;
+}
+.title h3{
+   font-size: 35px; 
+   margin-bottom: 45px ;
+}
+.title p{
+    color: #aaaaaa;
+    margin-bottom: 110px ;
+}
+
+.serviceGrid{
+    text-align: center;
+    
+}
+
+.singleService{
+    width: 21%;
+    float: left;
+   margin: 0 2%;
+   
+}
+
+.singleService i{
+    color: #22c3a3;
+    padding: 10px 0;
+    font-size: 30px;
+}
+.singleService h2{
+    padding: 15px 0;
+}
+.singleService p{
+    color: #aaa8a8;
+    font-size: 15px;
+}
+
+/* ServiceSection End */
+
+/* AboutSection Start */
+.aboutSection{
+    padding: 100px 0;
+    border-top: 1px solid #22c3a3;
+}
+
+.title1{
+    text-align: center;
+}
+.title1 h2{
+   margin-bottom: 28px;
+   font-size: 30px;
+}
+.title1 p{
+    margin-bottom: 65px;
+    color: #aaaaaa;
+}
+
+.aboutGrid{
+    margin-bottom: 35%;
+}
+
+.aboutimg{
+    width: 45%;
+    float: left;
+    margin-right: 2%;
+}
+
+.aboutimg img{
+    width: 100%;
+}
+
+.abouttext{
+    width: 50%;
+    float: right;
+    margin-right: 2%;
+}
+
+.singleabouttext{
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+
+.singleabouttext h2{
+    color: #666666;
+    padding-bottom: 10px;
+}
+
+.singleabouttext p{
+    color: #aaaaaa;
+}
+
+/* AboutSection End */
+
+/* ContactSection Start */
+
+.contactSection{
+    background-color:#f6f6f6 ;
+    padding: 50px 0;
+}
+.title2{
+    text-align: center;
+    
+}
+.title2 h2{
+    padding: 37px 0;
+}
+.title2 p{
+    color: #aaaaaa;
+}
+.contactGrid{
+    text-align: center;
+    padding: 65px 0;
+}
+.singlecontact{
+    float: left;
+    width:31%;
+    margin: 0 1%;
+}
+.singlecontact i{
+    color: #22c3a3;
+}
+.singlecontact ul{}
+.singlecontact ul li{
+    list-style: none;
+    color: #aaaaaa;
+}
+
+/* ContactSection */
+
+/* SubfooterSection */
+.subSection{
+    background-color: #22c3a3;
+}
+.subFooter{
+    text-align: center;
+}
+.subFooter ul {
+    padding-bottom: 13px;
+}
+.subFooter ul li{
+    list-style: none;
+    display: inline-block;
+}
+.subFooter ul li a{}
+.subFooter i {
+    font-size: 24px;
+    padding: 0 10px;
+    color: #fff;
+}
+
+/* SubfooterSection End */
+
+/* MainfooterSection Start */
+.mainFooter{
+    background-color:#222222;
+    text-align: center;
+}
+.footer {
+     padding: 16px;
+}
+.footer p{
+    color: #555555;
+}
+
+/* MainfooterSection End */

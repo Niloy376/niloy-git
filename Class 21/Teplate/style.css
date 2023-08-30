@@ -1,0 +1,44 @@
+.carousel-caption{
+    margin-bottom: 19%;
+}
+
+/* AboutSection Start */
+
+.aboutimage{
+    width: 95%;
+    margin-top: 2%;
+}
+
+
+.aboutimage img{
+    max-width: 100%;
+    border: 6px solid #f1eeee9f;
+    border-radius: 5px;
+}
+
+.aboutText{
+    margin-left: 36px;
+}
+
+.lfwf{
+    margin-left: 3%;
+}
+
+/* AboutSection End */
+
+/* Table & FormSection Start */
+
+.table-form{
+    background-color: #ebe8e86e;
+}
+
+/* Table & FormSection End */
+
+/* StretchedSection Start*/
+
+.stretchedSection{
+    background-color: #ebe8e86e;
+}
+
+
+/* StretchedSection End */

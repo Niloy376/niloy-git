@@ -1,0 +1,48 @@
+.headerSection{
+    background-color:#e3f2fd;
+}
+
+.navbar-brand{
+  width: 45px;
+  height: 50px;
+}
+.navbar-brand img{
+    width: 100%;
+}
+
+/* BreadcrumSectionSection Start */
+
+.breadcrumSection{
+    padding: 50px 0;
+}
+.breadcrumb {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: rgb(240, 240, 240);
+   
+}
+
+.breadcrumb-item a{
+    text-decoration: none;
+}
+/* BreadcrumSection End */
+
+/* SliderSection Start */
+
+.sliderSection{
+    margin-top: -3%;
+}
+
+.carousel-item img{
+  width: 100%;
+  
+}
+
+/* SliderSection End */
+
+/* progressSection Start */
+
+.progress{
+    margin-bottom: 3%;
+}
+
