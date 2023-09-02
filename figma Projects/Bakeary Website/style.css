@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HeaderSection Start */
+
+
+.headerSection{
+    background-color: rgb(252, 249, 249);
+}
+
+.navbar-brand{
+    width: 5%;
+    height: 5%;
+}
+
+.navbar-brand img{
+    max-width: 100%;
+}
+
+.carousel-inner{
+
+}
+
+
+.greattingSection{
+    background-image: url("https://i.ibb.co/YfgVhZV/pastry-wooden-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+
+
+.ProductSection{
+    background: #f7f7f7f7;
+}

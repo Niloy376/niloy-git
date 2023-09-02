@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HeaderSection */
+.headerSection{
+   text-align: center;
+   padding: 20px;
+}
+/* .menu{}
+.menu ul { } */
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+    
+.menu ul li a {
+    color: black;
+    font-size: 20px;
+    padding: 7px 24px;
+    background-color: #48dbfb;
+    display: inline-block;
+    transition: .7s;
+    position: relative;
+    font-weight: bold;
+    z-index: 1;
+} 
+
+.menu ul li a:hover{
+  background: #fff;
+  color: #48dbfb;
+}
+
+.menu ul li a::after {
+   content: "";
+   position: absolute;
+   top: 27px;
+   left: 21px;
+   width: 0%;
+   height: 8%;
+   background-color: black;
+   z-index: 1;
+   transition: .7s;
+}
+
+.menu ul li a:hover::after{
+    width: 60%;
+}
+
+/* HeaderSection End */
+
+ /* HeroSection Start */
+ .heroSection{
+     background-color: #48dbfb;
+     padding: 110px 0;
+     margin-top: -12px;
+     text-align: center;
+ }
+
+ .hero{}
+ .hero h4{
+    color: #fff;
+    font-size: 30px;
+    padding: 50px 0;
+ }
+ .hero h1{
+    font-size: 70px;
+    color: #fff;
+ }
+ .btn{
+    background-color:#ffffff ;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 30px;
+    color: #dcdcdc;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+ }
+
+ .btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    transition: .7s;
+    z-index: -1;
+ }
+
+ .btn:hover::before{
+    width: 100%;
+ }
+ /* HeroSection End */
+ /* GallerySection Start*/
+
+ .gallerySection{
+    padding: 50px;
+    text-align: center;
+ }
+
+ .gallery{
+    margin-top: 100px;
+ }
+
+ .text{
+    margin-top: 30px;
+    font-weight: bold;
+ }
+
+.imgbox1{
+    display: inline-block;
+    width: 23%;
+    margin: 5px;
+    overflow: hidden;
+}
+.imgbox2{
+    display: inline-block;
+    width: 23%;
+    margin: 5px;
+    overflow: hidden;
+}
+.imgbox3{
+    display: inline-block;
+    width: 23%;
+    margin: 5px;
+    overflow: hidden;
+}
+.imgbox4{
+    display: inline-block;
+    width: 23%;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.imgbox5{
+    display: inline-block;
+    width: 23%;
+    margin: 5px;
+    overflow: hidden;
+}
+.imgbox6{
+    display: inline-block;
+    width: 23%;
+    margin: 5px;
+    overflow: hidden;
+}
+.imgbox7{
+    display: inline-block;
+    width: 23%;
+    margin: 5px;
+    overflow: hidden;
+}
+.imgbox8{
+    display: inline-block;
+    width: 23%;
+    margin: 5px;
+    overflow: hidden;
+}
+.imgInner img{
+    width: 100%;
+    transition: .7s;
+}
+
+.imgbox1:hover img{
+    transform:rotate(360deg) scale(1.6);
+}
+
+.imgbox2:hover img{
+    transform:rotate(30deg) scale(1.2);
+}
+
+.imgbox3:hover img{
+    transform:rotate(-30deg) scale(1.2);
+}
+
+.imgbox4:hover img{
+    transform:rotate(30deg) scale(1.2);
+}
+
+.imgbox5:hover img{
+    transform:rotate(30deg) scale(1.2);
+}
+
+.imgbox6:hover img{
+    transform:rotate(360deg) scale(1.6);
+}
+
+.imgbox7:hover img{
+    transform:rotate(10deg) scale(1.3);
+}
+
+.imgbox8:hover img{
+    transform:rotate(-10deg) scale(1.3);
+}
+
+/* GallerySection End */
+
+/* StepSection Start */
+
+.stepSection{
+    padding: 70px 0;
+    text-align: center;
+}
+
+.stephead {
+    line-height: 32px;
+}
+
+.stephead h2{
+    padding: 25px 0;
+    font-size: 40px;
+}
+
+.stephead p{
+    color: #b0b4b7;
+    margin-bottom: 25px;
+}
+
+.step{
+    width: 4%;
+    margin: 0 12%;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    font-weight: bolder;
+    padding: 15px 25px;
+}
+
+.design1{
+    transform: rotate(-40deg);
+    transition: .7s;
+}
+
+.design1:hover{
+    transform: scale(1.3);
+    background-color: #48dbfb;
+    color: #000;
+}
+
+.design2{
+    transition: .7s;
+}
+
+.design2:hover{
+    transform: scale(1.3);
+    background-color: #48dbfb;
+    color: #000;
+}
+
+
+.design3{
+    transform: rotate(40deg);
+    transition: .7s;
+}
+
+.design3:hover{
+    transform: scale(1.3);
+    background-color: #48dbfb;
+    color: #000;
+}
+
+/* stepSection End */
+
+/* FootterSection Start */
+
+.footerSection{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #2e2f31;
+    color:#c5d2cc ;
+    padding: 30px 0;
+    float: ;
+}
+
+/* FooterSection End */
+

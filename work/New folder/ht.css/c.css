@@ -1,0 +1,35 @@
+
+
+h1{
+    color: aliceblue;
+    background:orange;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h2{
+    color: white;
+    background:yellowgreen ;
+}
+h3{
+    color: antiquewhite;
+    background-color: yellow;
+}
+.div1{
+    color: white;
+    background: olivedrab;
+}
+.div2{
+    color: beige;
+    background: orangered;
+}
+a{
+    color: darkorange;
+    background: #000;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 10px solid yellowgreen;
+    text-decoration: none;
+}

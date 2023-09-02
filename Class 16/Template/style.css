@@ -1,0 +1,189 @@
+/* Defult Codes */
+.h1, h2, h3, h4, h5, h6, ul, li, p{
+    padding: 0;
+    margin: 0;
+}
+
+/* Defult Codes */
+
+
+/* HeaderSection start */
+
+.headerSection{
+    background-color: #101446;
+}
+.logo{}
+.logo img{
+    width: 100px;
+    height: auto;
+    padding: 10px 0;
+}
+
+.menu{
+
+}
+.menu ul {}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    padding: 25px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#fff ;
+    font-size: 15px;
+    transition: .7s;
+}
+
+.menu ul li a:hover{
+    color: chocolate;
+}
+
+/* HeaderSection End */
+
+/* BannerSection Start */
+.bannerSection{
+    background-image: url("https://i.ibb.co/mz3X2Tf/intro-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.bannerSection::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: -1;
+    opacity: .4;
+}
+
+.text h3{
+    color: #fff;
+    margin-top: 212px;
+}
+.text p{
+    color: #fff;
+    margin: 50px 0;
+}
+
+.btn1{
+    background-color: #337ab7;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 30px;
+    color: #f7f3f3;
+    border-radius: 10px;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+ }
+
+ .btn1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #101446;
+    color: #fff;
+    border-radius: 10px;
+    transition: .7s;
+    z-index: -1;
+ }
+.btn1:hover::before{
+    width: 100%;
+    color: #337ab7;
+    
+}
+
+/* BannerSection End */
+
+/* TeamSection Start */
+.teamSection{
+    text-align: center;
+    background-color: #bac1f3;
+    padding: 70px 0;
+}
+
+.teamMember{
+    margin: 40px 70px;
+}
+
+.teamMember h4{
+    
+}
+.teamMember P{}
+.btn2{
+    background-color: #337ab7;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: .7s;
+}
+
+.btn2:hover{
+    background-color: transparent;
+    color: chocolate;
+}
+
+.teamMember img{
+    width: 80%;
+}
+
+/* TeamSection End */
+
+/* AboutSection Start */
+
+.aboutSection{
+    background-color:#c2d4ea ;
+}
+
+.title{
+    padding: 60px 0;
+}
+
+.imageprofile img{
+    width: 100%;
+}
+
+.textabout{}
+.textabout ul{}
+.textabout ul li{
+    list-style: none;
+    margin-left: -50px;
+}
+
+.text1{
+    margin-top: 25px;
+    text-align: left;
+}
+
+.text2{
+    margin-top: 20px ;
+}
+.text3{
+    margin-top: 20px ;
+}
+.text4{
+    margin-top: 20px ;
+    margin-bottom: 100px;
+}
+
+/* AboutSection End */
+
+/* FooterSection Start */
+
+.footer span{
+    font-weight: bolder;
+}

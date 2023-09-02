@@ -1,0 +1,15 @@
+.test-div{
+    height: 300px;
+    width: 300px;
+    color: #ffffff;
+background:#143d04;
+margin-top: 20px;
+}
+
+img{
+    background: #dddd;
+    height: 250px;
+    width: 250px;
+    padding-right: 50px;
+
+}

@@ -1,0 +1,35 @@
+.A {
+    color: aliceblue;
+    background-color: black;
+    font-size: larger;
+    text-align: center;
+}
+form{
+   color: blueviolet;
+   background-color: aliceblue;
+   text-align: center;
+}
+.zx{
+    color: rgb(31, 151, 101);
+    background: #a6d8db;
+}
+h2{
+    color: rgba(rgb(223, 91, 91), rgb(2, 56, 2), rgb(120, 120, 228), alpha);
+}
+p{
+    color: aqua;
+    font-size: larger;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+      
+}
+h3{
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    text-shadow: 2px 1px black;
+    color: rgba(red, green, blue, alpha);
+}

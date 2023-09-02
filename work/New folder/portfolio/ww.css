@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+:root:not(.light) {
+    --bg-color:#292929;
+    --bg-color:#1c1c1c;
+    --color:#FFF;
+    --color:#888888;
+}
+
+/* CSS Globals */
+
+*,::after,::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+li{
+    list-style: none;
+}
+h1,h2{
+    font-family: 'poppins',sans-serif;
+    color: var(--color1);
+    font-size: 4ren;
+    font-weight: 700;
+}

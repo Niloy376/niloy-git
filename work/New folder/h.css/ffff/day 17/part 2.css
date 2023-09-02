@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.full-website{
+    text-align: center;
+    color: #ffff;
+    width: 1024px;
+
+    margin: 30px auto;
+}
+
+.menu{
+    background:#8e44ad;
+}
+
+.footer{
+    background:#2c3e50;
+  
+}
+
+.footer-bottom{
+    background:#2c3e50 ;
+}
+
+.container{
+    background:#1abc9c;
+}
+img{
+    max-width: 100%;
+    margin-bottom: -5px;
+}
+.op{
+    padding: 30px 0;
+}

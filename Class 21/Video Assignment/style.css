@@ -1,0 +1,70 @@
+/* BreadcrumSectionSection Start */
+
+.breadcrumSection{
+    padding: 50px 0;
+}
+.breadcrumb {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: rgb(240, 240, 240);
+   
+}
+
+.breadcrumb-item a{
+    text-decoration: none;
+}
+/* BreadcrumSection End */
+
+
+.carousel-caption{
+    margin-bottom: 19%;
+}
+
+
+.overText{
+    overflow: scroll;
+    height: 300px;
+    width: 300px;
+}
+
+
+/* AboutSection Start */
+
+.aboutimage{
+    width: 95%;
+    margin-top: 2%;
+}
+
+
+.aboutimage img{
+    max-width: 100%;
+    border: 6px solid #f1eeee9f;
+    border-radius: 5px;
+}
+
+.aboutText{
+    margin-left: 36px;
+}
+
+.lfwf{
+    margin-left: 3%;
+}
+
+/* AboutSection End */
+
+/* Table & FormSection Start */
+
+.table-form{
+    background-color: #ebe8e86e;
+}
+
+/* Table & FormSection End */
+
+/* StretchedSection Start*/
+
+.stretchedSection{
+    background-color: #ebe8e86e;
+}
+
+
+/* StretchedSection End */

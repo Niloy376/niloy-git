@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/* .container{
+    width: 1200px;
+    margin: 0 auto;
+} */
+
+.clearfix::after{
+    content: "";
+    float: both;
+    display: block;
+}
+
+body{
+    
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    width: 15%;
+    position: relative;
+    
+}
+
+.logo img{
+    width: 100%;
+    position: absolute;
+    top: -58px;
+}
+
+.logo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(9, 3, 44);
+    animation: showRight 1s ease forwards;
+    animation-delay: .2s;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: 2s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+color: #00abf0 ;
+}
+
+.home{
+    height: 100vh;
+    background: url(https://www.ctvnews.ca/polopoly_fs/1.4471975.1560889145!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+   position: relative; 
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.home-content h1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(4, 1, 22);
+    animation: showRight 1s ease forwards;
+    animation-delay: .3s;}
+
+.home-content h3 {
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.home-content h3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(5, 1, 32);
+    animation: showRight 1s ease forwards;
+    animation-delay: .4s;}
+
+
+
+.home-content p {
+    position: relative;
+    color: #fffefe;
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.home-content p::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(6, 1, 34);
+    animation: showRight 1s ease forwards;
+    animation-delay: .7s;}
+
+
+.home-content .btn-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.home-content .btn-box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(7, 1, 37);
+    animation: showRight 1s ease forwards;
+    animation-delay: .7s;
+    z-index: 2;
+}
+
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .50s;
+    
+}
+
+.btn-box a:hover {
+    color: #00abf0;
+}
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: #00abf0;
+    width: 175px;
+}
+
+.btn-box a:nth-child(2):hover {
+    color: #081b29;
+}
+.btn-box a:nth-child(2)::before {
+    background: #00abf0;
+}
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #081b29;
+    z-index: -1;
+    transition: .50s;
+}
+
+.btn-box a:hover::before {
+    width: 100%;
+}
+
+
+.home-sci {
+    position: absolute;
+    bottom: 30px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-sci::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(6, 1, 37);
+    animation: showRight 1s ease forwards;
+    animation-delay: .10s;
+    z-index: 2;}
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.home-sci a:hover{
+    color: #081b29;
+}
+
+.home-sci a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #00abf0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.home-sci a:hover::before {
+    width: 100%;
+}
+
+.home-imgHover{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 2200px;
+    height: 200%;
+    background: transparent;
+    transition:3s;
+    animation: manipActiveHover .1s forwards;
+    animation-delay: .4s;
+    pointer-events: none;
+}
+
+.home-imgHover:hover{
+   background: rgb(83, 76, 163); 
+   opacity: .09;
+}
+
+.home-imgHover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120%;
+    height: 100%;
+    background:rgb(6, 1, 37);
+    animation: showRight 1s ease forwards;
+    animation-delay: .15s;
+    z-index: 100;}
+
+
+/* KEYFRAMES ANIMATION */
+@keyframes showRight {
+    100%{
+        width: 0;
+    }
+}
+
+@keyframes manipActiveHover{
+    100% {
+        pointer-events: auto;
+    }
+}
+
+.serviceSection{
+    background: url(https://www.hdwallpaperslife.com/wp-content/uploads/2020/01/ocean_waves_aerial_view.jpg) no-repeat;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 0;
+    text-decoration: underline;
+    position: relative;
+}
+
+.serviceGrid{
+    height: 1px;
+}
+
+.service1{
+    width: 300px;
+    display: inline-block;
+    background: #0e6fdd;
+    box-shadow: 1px 1px 13px #f7f1f1;
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    padding: 25px;
+    transition: .8s;
+}
+
+.service1 h5{
+    color:rgb(83, 76, 163);
+}
+
+.service1 img{
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 13px #000;
+
+}
+
+.service1 p{
+    font-size: 10px;
+    color:rgb(83, 76, 163);
+}
+
+.service1:hover{
+    background-color: #e9eef1;
+    transform: scale(1.3) ; 
+      
+}
+
+.service2{
+    width: 300px;
+    display: inline-block;
+    background: #0e6fdd;
+    box-shadow: 1px 1px 13px #f7f1f1;
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    padding: 25px;
+    transition: .8s;
+}
+
+.service2 h5{
+    color:rgb(83, 76, 163);
+}
+
+
+.service2 img{
+    width: 93%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 13px #000;
+
+}
+
+.service2 p{
+    font-size: 10px;
+    color:rgb(83, 76, 163); 
+}
+
+.service2:hover{
+    background-color: #e9eef1;
+    transform: scale(1.4) ;
+}
+
+.service3{
+    width: 300px;
+    display: inline-block;
+    background: #0e6fdd;
+    box-shadow: 1px 1px 13px #f7f1f1;
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 30%;
+    left: 73%;
+    padding: 25px;
+    transition: .8s;
+}
+
+.service3 h5{
+    color:rgb(83, 76, 163);
+}
+
+.service3 img{
+    width: 93%;
+    border-radius: 10%;
+    box-shadow: 2px 4px 13px #000;
+}
+
+.service3 p{
+    font-size: 10px;
+    color:rgb(83, 76, 163) ;
+}
+
+.service3:hover{
+background-color: #e9eef1;
+transform: rotate(360deg) scale(1.4);
+}
+
+/* expeditionSection Start */
+
+.expeditionsection{
+    background-color: #b1adad;
+    padding: 80px 0;
+}
+
+.expeditionsection h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.expeditionGrid{}
+
+
+.expedition1{
+    position: relative;
+}
+.image1{
+    
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+
+.image1 img{
+    max-width: 100%;
+    float:
+}
+
+.text1 {
+    float: right;
+    width: 654px;
+    padding: 50px 20px;
+}
+.text1 h3{}
+.text1 p{}
+
+
+.expedition2{}
+.image2{
+    width: 100px;
+    height: 100px;
+}
+
+.image2 img{
+    max-width: 100%;
+}
+
+.text2{
+    width: 100px;
+}
+.text2 h3{}
+.text2 p{}
+
+
+.expedition3{}
+.image3{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.image3 img{
+    max-width: 100px;
+}
+
+.text3{
+    float: right;
+    width: 100px;
+}
+.text3 h3{}
+.text3 p{}

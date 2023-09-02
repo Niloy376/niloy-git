@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: rgba(155, 250, 3, 0);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vw;
+}
+.box{
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    background:#141111;
+    box-shadow: 0 0 0 #141313,
+    0 0 0 #201c1c,
+    10px 10px 10px #0e0d0d inset,
+    -10px -10px --10px #141212
+    inset;
+    animation: anime 3s
+    cubic-bezier(0.16, 1, 0.3, 
+    1) 1s infinite alternate;
+}
+
+@keyframes anime {
+  0%{
+    width: 60px;
+    height: 60px;
+    background:#0e0c0c;
+    box-shadow: 0 0 0 #0e0c0c,
+    0 0 0 #0a0a0a,
+    10px 10px 10px #131111 
+    inset,
+    -10px -10px -10px #0f0e0e
+    inset;
+
+  } 
+25%{
+    width: 120px;
+    height: 240px;
+    background: #1a1818;
+    box-shadow: 10px 10px 10px
+      #131010,
+      10px 10px 10px #181616,
+      0 0 0 #0a0909 inset,
+      0 0 0 #0f0e0e inset;
+}
+50%{
+    width: 60px;
+    height: 240px;
+    background: #050505;
+    box-shadow: 10px 10px 10px
+     #070606,
+     10px 10px 10px #070606
+     0 0 0 #0c0b0b inset
+     0 0 0 #0a0909 inset;
+}
+100%{
+    width: 480px;
+    height: 240px;
+    background: #131111;
+    box-shadow: 40px 40px 40px
+      #0f0c0c,
+      0 0 0 #0c0b0b,
+      0 0 0 #070606 inset
+      2px 2px 2px #0a0909 inset;
+
+    }
+}
+ </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box"></div>
+</body>
+</html>
