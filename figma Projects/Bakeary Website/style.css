@@ -33,8 +33,9 @@
     padding: 100px;
 }
 
-
-
+.aboutimage {
+    margin-bottom: 50px;
+}
 .ProductSection{
     background: #f7f7f7f7;
 }
